@@ -21,7 +21,7 @@ int main(){
 
   pid_t pid = fork(); // create a child process
 
-  if (pid == 0){ //quando fork() return 0 we are in process child
+  if (pid == 0){ //When fork() return 0 we are in process child
   	
     // Code only executed by child process
     for(int i = 1; i <= 100; i++)

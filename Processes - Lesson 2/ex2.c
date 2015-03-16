@@ -107,7 +107,7 @@ void view(){
 	}else if(pid == 0){
 		execl("/bin/cat", "cat", filepath(), NULL); // The list of arguments must be terminated by a NULL pointer
 		printf("Error in execl view: [%s]\n", strerror(errno));
-		_exit(1);
+		_exit(EXIT_SUCCESS);
 	}else{
 		printf("Error view:[%s]", strerror(errno));
 	}
@@ -125,7 +125,7 @@ void list(){
 	}else if(pid == 0){
 		execl("/bin/ls", "ls", "-l", NULL);
 		printf("Error in execl list!\n");
-		_exit(1);
+		_exit(EXIT_SUCCESS);
 	}else{
 		printf("Error list:[%s]", strerror(errno));
 	}
@@ -141,7 +141,7 @@ void delete(){
 	}else if(pid == 0){
 		execl("/bin/rm", "rm", filepath(), NULL);
 		printf("Error in execl remove!\n");
-		_exit(1);
+		_exit(EXIT_SUCCESS);
 	}else{
 		printf("Error delete:[%s]", strerror(errno));
 	}
