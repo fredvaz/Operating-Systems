@@ -1,2 +1,6 @@
 # Operating-Systems
-Class of Operating Systems in Electrical and Computer Engineering Degree 
+Class of Operating Systems in Electrical and Computer Engineering Degree
+
+I made this in OS X it's based on Unix but  it's different of Ubuntu Linux in some cases like:
+
+- core dump directory that is /cores and file core is core.PID
