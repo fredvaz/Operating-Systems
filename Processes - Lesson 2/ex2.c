@@ -83,7 +83,7 @@ void edit(){
 
 	if (pid > 0){ // Code only executed by parent process
 		
-		wait(&status); // Parent wait until child exit, otherwise the parent and child run together (parent is executed again)
+		wait(&status); // Parent wait until child exit, otherwise the parent and child run in parrallel (parent is executed again)
 
 	}else if(pid == 0){ // Code only executed by child process
 		
