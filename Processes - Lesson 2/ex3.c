@@ -2,7 +2,7 @@
 ===============================================================================
 SO - Lesson 2 - Exercise 3 
 
-Implementation of "System calls" through "Process Control"
+	Process Control
 
 +info: http://unixhelp.ed.ac.uk/CGI/man-cgi?wait+2
 
@@ -21,7 +21,7 @@ int main(){
 
 	pid_t childone, childtwo, pid;
 	//Note: We can get pid of father by getpid() in process father
-	int i = 0;
+	int i;
 
 	for (i = 0; i < 5; ++i){
 
@@ -52,7 +52,7 @@ int main(){
 			//jump to here 
 
 			// First Run Father wait. Second Run etc one of child's wait
-			for (int i = 0; i < 2; ++i){
+			for (int j = 0; j < 2; ++j){
 
 				pid = wait(NULL);
 				// wait() > 0 meaning  wait  for  the  child  whose process ID is equal to the value of pid

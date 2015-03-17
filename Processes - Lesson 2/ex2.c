@@ -2,7 +2,7 @@
 ===============================================================================
 SO - Lesson 2 - Exercise 2 
 
-Implementation of "System calls" through "Process Control"
+	Process Control
 
 +info: http://en.wikipedia.org/wiki/System_call
 +info: http://en.wikipedia.org/wiki/Fork_(system_call)
