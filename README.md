@@ -1,7 +1,8 @@
 # Operating-Systems
 Class of Operating Systems in Electrical and Computer Engineering Degree
 
-I made this in OS X it's based on Unix but in some cases it's different of Ubuntu Linux like:
+In operating systems is used Ubuntu Linux because we work in this Unix-based system.
 
-- core dump directory that is /cores and file core is core.PID;
-- GDB is no more support apple moved to LLDB but you can install gdb-apple it's like GDB;
+We could for example using the OS X which is also based on Unix but we would have more work because the specific functions, gdb, memory sharing restrictions etc different for each system or Linux distribution.
+
+There is also more documentation of Linux.
