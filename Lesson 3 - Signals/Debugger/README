@@ -1,0 +1,9 @@
+Nota: Para pode obter o ficheiro core aquando do terminus forçado dos processos é necessário fazer 
+
+1 - editar o ficheiro /etc/security/limits.conf e colocar 
+
+*               soft    core            10000 # para ficar de forma permanente
+
+Se não obtiverem nenhum erro mudar o ciclo  for(j=0; j<=5000;j++) para  for(j=0; j<=10000;j++)
+
+2 - ou, manualmente fazer o comando "ulimit -S -c unlimited" para ficar válido durante a sessão em curso (e na shell actual).
