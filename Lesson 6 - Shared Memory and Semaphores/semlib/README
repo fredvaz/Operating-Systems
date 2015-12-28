@@ -1,0 +1,9 @@
+Files contents: 
+
+- Semaphores library: 
+    semlib.h 
+    semlib.c
+- Script to remove IPCS: 
+    kill_ipcs.sh
+
+
