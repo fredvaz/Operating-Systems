@@ -1,4 +1,4 @@
-# Operating-Systems
+# Operating Systems
 Class of Operating Systems in Electrical and Computer Engineering Degree
 
 In operating systems is used Ubuntu Linux because we work in this Unix-based system.
